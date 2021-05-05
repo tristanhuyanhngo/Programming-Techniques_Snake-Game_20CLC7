@@ -389,6 +389,7 @@ void WriteFile(fstream& fs, Player player) {
 
 // ___________________________________________________ Start Game ___________________________________________________
 void Menu::StartGame(vector<Chain> Snake) {
+	HiddenCursor(0);
 	fstream fs;
 	int X0 = 0;
 	int Y0 = 0;
